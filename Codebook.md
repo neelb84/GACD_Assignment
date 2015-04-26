@@ -15,41 +15,54 @@ activity performed by the subjects
      values:
      
 1 WALKING
+
 2 WALKING_UPSTAIRS
+
 3 WALKING_DOWNSTAIRS
+
 4 SITTING
+
 5 STANDING
+
 6 LAYING
 
 ##features: Combination of feature vector of patterns -
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+tBodyAcc-XYZ;
+tGravityAcc-XYZ;
+tBodyAccJerk-XYZ;
+tBodyGyro-XYZ;
+tBodyGyroJerk-XYZ;
+tBodyAccMag;
+tGravityAccMag;
+tBodyAccJerkMag;
+tBodyGyroMag;
+tBodyGyroJerkMag;
+fBodyAcc-XYZ;
+fBodyAccJerk-XYZ;
+fBodyGyro-XYZ;
+fBodyAccMag;
+fBodyAccJerkMag;
+fBodyGyroMag;
+fBodyGyroJerkMag;
 
 Variables estimeted from above signals
 
 mean(): Mean value
+
 std(): Standard deviation
+
 meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+
 Below metrics used on angle variables:
+
 gravityMean
+
 tBodyAccMean
+
 tBodyAccJerkMean
+
 tBodyGyroMean
+
 tBodyGyroJerkMean
 
 Overall 86 levels from the above combinations:
