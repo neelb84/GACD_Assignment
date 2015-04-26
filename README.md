@@ -1,4 +1,5 @@
 # GACD_Assignment
+Getting, cleaning and summarising data collected from the accelerometers from the Samsung Galaxy S smartphone
 
 ##Codebook.md
 
